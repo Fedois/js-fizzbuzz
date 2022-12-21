@@ -1,7 +1,7 @@
 let containerSmall = document.getElementById('container-small');
 let content
 
-for (square = 1; square <= 20; square++) {
+for (square = 1; square <= 50; square++) {
 
 
     if(square % 3 == 0 && square % 5 == 0){
