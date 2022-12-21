@@ -1,17 +1,26 @@
-/* RESET */
+/* RESET
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
 }
 .container{
     width: 70vw;
     margin: 0 auto;
     text-align: center;
 }
+h1{
+    font-size: 4em;
+    margin: 1rem 0;
+    color: white;
+}
 #container-small{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #container-small > .box{
     background-color: red;
@@ -20,4 +29,4 @@
     margin: 1rem;
     text-align: center;
     line-height: 100px;
-}
+} */

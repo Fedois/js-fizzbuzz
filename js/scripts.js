@@ -1,10 +1,17 @@
 
-for (let square = 0; square < 50; square++) {
+ for (square = 1; square <= 20; square++) {
 
-    console.log(square);
-
-    let containerSmall = document.getElementById('container-small');
+    if(square % 3 == 0 && square % 5 == 0){
+        console.log(square, 'fizzbuzz');
     
-    containerSmall.innerHTML += '<div class="box">' + (square + 1) + '</div>';
-
-} 
+    }
+    else if(square % 3 == 0){
+        console.log(square, 'fizz')
+    }
+    else if(square % 5 == 0){
+        console.log(square, 'buzz')
+    }
+    else{
+        console.log(square)
+    }
+}
