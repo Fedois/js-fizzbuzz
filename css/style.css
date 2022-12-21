@@ -4,3 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 70vw;
+    margin: 0 auto;
+    text-align: center;
+}
+#container-small{
+    display: flex;
+    flex-wrap: wrap;
+}
+#container-small > .box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
+    text-align: center;
+    line-height: 100px;
+}
